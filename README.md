@@ -12,7 +12,7 @@ git clone git@github.com:sikhwalanil2/TheMovieDBAPI.git
 
 ### 2. Install required packages
 ```bash
-## install the node_modules
+## install the python modules
 pip install -r requirements.txt
 
 ```
