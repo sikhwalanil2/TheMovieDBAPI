@@ -6,7 +6,7 @@ After forking this project in `Github`, run these commands:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/sikhwalanil2/Bynder.git
+git clone git@github.com:sikhwalanil2/TheMovieDBAPI.git
 
 ```
 
@@ -19,20 +19,15 @@ pip install -r requirements.txt
 ### 3. Run Test Suite
 
 ```bash
-## Run Test on local with headless  mode
-pytest --html=report.html
-<img width="1334" alt="image" src="https://user-images.githubusercontent.com/47314061/191962490-e8a1351c-c4dd-4fc3-b476-7bba9526c36c.png">
 
+## Run all testcases
+pytest
+<img width="1355" alt="Screenshot 2023-05-09 at 8 24 48 AM" src="https://user-images.githubusercontent.com/31472941/236984303-8f273a22-4e74-453a-8762-597e2ad69aeb.png">
 
-## Run Test on local with docker
-npm run docker-test
-<img width="1335" alt="image" src="https://user-images.githubusercontent.com/47314061/191962638-bbbd32b5-912f-4fe4-9d7e-53c73da3c82f.png">
+## Run testcases with html report
+pytest --html=report.html 
+<img width="1354" alt="Screenshot 2023-05-09 at 8 25 38 AM" src="https://user-images.githubusercontent.com/31472941/236984245-24b8a197-82ed-4863-9d52-3dbd6935b365.png">
 
-```
-### 4. Deal with Test runner
-```bash
-## launch the cypress test runner
-npm run cy:open
-<img width="1693" alt="image" src="https://user-images.githubusercontent.com/47314061/191962742-7a43cb60-e921-4b52-82e2-578719b4d45f.png">
-
+##HTML report will look like this
+<img width="1554" alt="Screenshot 2023-05-09 at 8 25 54 AM" src="https://user-images.githubusercontent.com/31472941/236984556-7d9818cf-8dbc-4125-aced-b391112f42b3.png">
 ```
